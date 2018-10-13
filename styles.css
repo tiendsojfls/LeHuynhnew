@@ -1,0 +1,157 @@
+@media only screen and (max-width: 860px) {
+    .col-body{
+    	width: 100%;
+    }
+    .col-body-div3{
+    	width: 75%;
+    }
+}
+@media only screen and (min-width: 861px) {
+    .col-body{
+    	width: 75%;
+    }
+    .col-body-div3{
+    	width: 50%;
+    }
+}
+
+*{
+			box-sizing: border-box;
+			font-family: 'Abel';
+		}
+		.header{
+		    height: 376px;
+			background: #04B4AE;    
+			padding: 60px;
+		}
+		.header .div1{
+		    text-align: center;
+		    height: 151px;
+		    width: 318px;
+		    border-style: ridge;
+		    margin: 0 auto;
+		    padding: 16px;
+   			color: white;
+   			font-size: 30px;
+		}
+		.header .div2{
+		    text-align: center;
+		    margin-top: 20px;
+   			color: white;
+		}
+
+		.button{
+		    border: none;
+		    color: white;
+		    padding: 10px 20px;
+		    text-align: center;
+		    text-decoration: none;
+		    display: inline-block;
+		    font-size: 12px;
+		}
+
+		.button1{
+		    background-color: #2E64FE;
+		}
+		.button1:hover{
+		    background-color: #0B0B61;
+		}
+
+		.body{
+			height: 543px;
+		    padding: 50px 0;
+		    background: white;
+		}
+
+		.body .div1{
+			text-align: center;    
+			margin-bottom: 35px;
+		}
+
+		.body .div1 span{
+			border-bottom: ridge;
+			font-size: 23px;
+		}
+
+		.body .div2{
+			display: flex;
+			margin: 0 auto;
+			height: 171px;
+			background: white;	
+			text-align: center;	
+			border: solid 0.2px #6E6E6E;
+		}
+
+		.body .div3{
+			display: flex;
+			margin: 0 auto;
+			height: 171px;
+			background: white;	
+			text-align: center;	
+			border-left: solid 0.2px #6E6E6E;
+			border-right: solid 0.2px #6E6E6E;
+			border-bottom: solid 0.2px #6E6E6E;
+		}
+
+
+		.body .div2 div{
+			width: 100%;
+			padding: 11px;
+		}
+
+		.body .div3 div{
+			width: 100%;
+			padding: 11px;
+		}
+
+		.body .div2 div img{
+		    margin: 0 auto;
+			width: 50px;
+			display: block;
+		}
+
+		.body .div3 div img{
+		    margin: 0 auto;
+			width: 50px;
+			display: block;
+		}
+
+		.footer{
+			height: 526px;
+		    padding: 50px;
+		    background: #E6E6E6;
+		}
+
+		.footer .div1{
+			text-align: center;    
+			margin-bottom: 35px;
+		}
+
+		.footer .div1 span{
+			border-bottom: ridge;
+			font-size: 23px;
+		}
+
+		.footer .div2{
+			display: flex; 
+			margin: 0 auto;
+			width: 40%; 
+			text-align: center;
+		}
+
+		.footer .div2 div{
+			width: 50%;
+		}
+
+		.footer .div3{
+			margin: 20px auto;
+			width: 40%;
+			text-align: center;
+		}
+
+		.line{
+			width: 500px; 
+			height: 1px; 
+			background: #848484;
+			margin: 50px auto;
+		}
